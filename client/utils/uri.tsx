@@ -1,1 +1,1 @@
-export const SERVER_URI = process.env.SERVER_URI || "http://192.168.45.174:8000/api/v1";
+export const SERVER_URI = "https://lms-app-server-x3wg.onrender.com/api/v1";
