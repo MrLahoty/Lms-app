@@ -8,27 +8,45 @@ dist/
 build/
 .next/
 
+# Expo-specific folders
+.expo/
+.expo-shared/
+
+# Android build outputs
+android/build/
+android/app/build/
+
+# iOS build outputs
+ios/build/
+ios/Pods/
+
 # Local environment files
 .env.local
 .env.development
+.env.production
 
-# Cache
+# Cache directories
 .cache/
-.expo/
-.expo-shared/
-ios/build/
-android/build/
+expo-template.cache/
 
-# IDE settings
+# IDE and editor settings
 .vscode/
 .idea/
 
-# System files
+# Logs and debug files
 *.log
+*.tmp
+*.temp
+*.lock
+
+# System and OS-specific files
 .DS_Store
 Thumbs.db
 
-# Miscellaneous
-*.temp
-*.tmp
+# Coverage reports
 coverage/
+
+# Miscellaneous
+*.bak
+*.swp
+*.orig
