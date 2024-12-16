@@ -8,6 +8,7 @@ node_modules/
 
 # Ignore android folder
 android/
+ios/
 
 # Expo
 .expo/
