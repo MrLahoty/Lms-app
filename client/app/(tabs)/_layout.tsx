@@ -1,4 +1,4 @@
-import useUser from "@/hooks/auth/useUser";
+import useUser from "../../hooks/auth/useUser";
 import { Tabs } from "expo-router";
 import { Image } from "react-native";
 

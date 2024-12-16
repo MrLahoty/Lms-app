@@ -28,10 +28,10 @@ import {
   Nunito_600SemiBold,
 } from "@expo-google-fonts/nunito";
 import { useState } from "react";
-import { commonStyles } from "@/styles/common/common.styles";
+import { commonStyles } from "../../../styles/common/common.styles";
 import { router } from "expo-router";
 import axios from "axios";
-import { SERVER_URI } from "@/utils/uri";
+import { SERVER_URI } from "../../../utils/uri";
 import { Toast } from "react-native-toast-notifications";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
@@ -134,7 +134,7 @@ export default function LoginScreen() {
               style={[styles.input, { paddingLeft: 40 }]}
               keyboardType="email-address"
               value={userInfo.email}
-              placeholder="support@becodemy.com"
+              placeholder="support@digifox.com"
               onChangeText={(value) =>
                 setUserInfo({ ...userInfo, email: value })
               }

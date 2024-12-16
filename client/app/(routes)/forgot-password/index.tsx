@@ -25,8 +25,7 @@ export default function ForgotPassword() {
       if (!fontsLoaded && !fontError) {
         return null;
       }
-    
-    
+        
       return (
         <LinearGradient colors={["#E5ECF9", "#F6F7F9"]} style={styles.container}>
           <Text style={[styles.headerText, { fontFamily: "Nunito_600SemiBold" }]}>

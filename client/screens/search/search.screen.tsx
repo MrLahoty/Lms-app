@@ -1,6 +1,6 @@
 import { SafeAreaView } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import SearchInput from "@/components/common/search.input";
+import SearchInput from "../../components/common/search.input";
 
 export default function SearchScreen() {
   return (

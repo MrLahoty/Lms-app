@@ -1,6 +1,7 @@
-import useUser from "@/hooks/auth/useUser";
+import React from "react";
+import useUser from "../hooks/auth/useUser";
 import { Redirect } from "expo-router";
-import Loader from "@/components/loader/loader";
+import Loader from "../components/loader/loader";
 
 export default function TabsIndex() {
   const { loading, user } = useUser();

@@ -3,7 +3,6 @@ import {
     Text,
     TouchableOpacity,
     FlatList,
-    Dimensions,
   } from "react-native";
   import {
     useFonts,
@@ -17,8 +16,8 @@ import {
   import { router } from "expo-router";
   import { useEffect, useRef, useState } from "react";
   import axios from "axios";
-  import { SERVER_URI } from "@/utils/uri";
-  import CourseCard from "@/components/cards/course.card";
+  import { SERVER_URI } from "../../utils/uri";
+  import CourseCard from "../../components/cards/course.card";
   
   export default function AllCourses() {
     const [courses, setCourses] = useState<CoursesType[]>([]);

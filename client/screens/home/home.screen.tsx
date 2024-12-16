@@ -1,10 +1,10 @@
 import { FlatList, StyleSheet } from "react-native";
 import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
-import Header from "@/components/header/header";
-import SearchInput from "@/components/common/search.input";
-import HomeBannerSlider from "@/components/home/home.banner.slider";
-import AllCourses from "@/components/courses/all.courses";
+import Header from "../../components/header/header";
+import SearchInput from "../../components/common/search.input";
+import HomeBannerSlider from "../../components/home/home.banner.slider";
+import AllCourses from "../../components/courses/all.courses";
 
 export default function HomeScreen() {
   const renderContent = () => {

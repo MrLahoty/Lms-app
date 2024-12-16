@@ -1,5 +1,4 @@
-import Ratings from "@/utils/ratings";
-import { FontAwesome } from "@expo/vector-icons";
+import Ratings from "../../utils/ratings";
 import { View, Text, Image } from "react-native";
 
 export default function ReviewCard({ item }: { item: ReviewType }) {

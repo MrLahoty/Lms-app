@@ -1,4 +1,5 @@
-import { SERVER_URI } from "@/utils/uri";
+import React from "react";
+import { SERVER_URI } from "../../utils/uri";
 import { Entypo, FontAwesome } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useStripe } from "@stripe/stripe-react-native";

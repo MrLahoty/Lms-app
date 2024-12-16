@@ -1,4 +1,4 @@
-import { SERVER_URI } from "@/utils/uri";
+import { SERVER_URI } from "../../../utils/uri";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
 import { router } from "expo-router";
