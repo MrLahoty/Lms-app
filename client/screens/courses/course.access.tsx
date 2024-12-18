@@ -7,18 +7,18 @@ import {
     TextInput,
   } from "react-native";
   import React, { useEffect, useState } from "react";
-  import Loader from "@/components/loader/loader";
+  import Loader from "../../components/loader/loader";
   import { router, useLocalSearchParams } from "expo-router";
   import axios from "axios";
-  import { SERVER_URI } from "@/utils/uri";
+  import { SERVER_URI } from "../../utils/uri";
   import AsyncStorage from "@react-native-async-storage/async-storage";
   import { WebView } from "react-native-webview";
   import { widthPercentageToDP } from "react-native-responsive-screen";
-  import QuestionsCard from "@/components/cards/question.card";
+  import QuestionsCard from "../../components/cards/question.card";
   import { Toast } from "react-native-toast-notifications";
-  import ReviewCard from "@/components/cards/review.card";
+  import ReviewCard from "../../components/cards/review.card";
   import { FontAwesome } from "@expo/vector-icons";
-  import useUser from "@/hooks/auth/useUser";
+  import useUser from "../../hooks/auth/useUser";
   
   export default function CourseAccessScreen() {
     const [isLoading, setisLoading] = useState(true);

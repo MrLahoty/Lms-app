@@ -1,7 +1,8 @@
-import CourseCard from "@/components/cards/course.card";
-import Loader from "@/components/loader/loader";
-import useUser from "@/hooks/auth/useUser";
-import { SERVER_URI } from "@/utils/uri";
+import React from "react";
+import CourseCard from "../../../components/cards/course.card";
+import Loader from "../../../components/loader/loader";
+import useUser from "../../../hooks/auth/useUser";
+import { SERVER_URI } from "../../../utils/uri";
 import axios from "axios";
 import { LinearGradient } from "expo-linear-gradient";
 import { useEffect, useState } from "react";

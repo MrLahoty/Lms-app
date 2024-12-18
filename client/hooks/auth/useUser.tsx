@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { SERVER_URI } from "@/utils/uri";
+import { SERVER_URI } from "../../utils/uri";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function useUser() {

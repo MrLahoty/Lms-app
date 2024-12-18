@@ -1,4 +1,5 @@
-import { SERVER_URI } from "@/utils/uri";
+import React from "react";
+import { SERVER_URI } from "../../utils/uri";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { View, Text, ScrollView, TouchableOpacity } from "react-native";
@@ -13,9 +14,9 @@ import {
   Nunito_500Medium,
   Nunito_600SemiBold,
 } from "@expo-google-fonts/nunito";
-import Loader from "@/components/loader/loader";
+import Loader from "../../components/loader/loader";
 import { LinearGradient } from "expo-linear-gradient";
-import CourseCard from "@/components/cards/course.card";
+import CourseCard from "../../components/cards/course.card";
 
 export default function CoursesScreen() {
   const [courses, setCourses] = useState<CoursesType[]>([]);

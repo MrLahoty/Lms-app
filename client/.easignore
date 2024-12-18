@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+.next/
+
+# Expo-specific folders
+.expo/
+.expo-shared/
+
+# Android build outputs
+android/build/
+android/app/build/
+
+# iOS build outputs
+ios/build/
+ios/Pods/
+
+# Local environment files
+.env.local
+.env.development
+.env.production
+
+# Cache directories
+.cache/
+expo-template.cache/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Logs and debug files
+*.log
+*.tmp
+*.temp
+*.lock
+
+# System and OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+
+# Miscellaneous
+*.bak
+*.swp
+*.orig

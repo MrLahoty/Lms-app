@@ -1,5 +1,6 @@
-import Loader from "@/components/loader/loader";
-import useUser from "@/hooks/auth/useUser";
+import React from "react";
+import Loader from "../../components/loader/loader";
+import useUser from "../../hooks/auth/useUser";
 import {
   AntDesign,
   FontAwesome,
@@ -23,7 +24,7 @@ import * as ImagePicker from "expo-image-picker";
 import * as FileSystem from "expo-file-system";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
-import { SERVER_URI } from "@/utils/uri";
+import { SERVER_URI } from "../../utils/uri";
 import { router } from "expo-router";
 
 export default function ProfileScreen() {

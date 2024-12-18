@@ -1,3 +1,4 @@
+import React from "react";
 import { View, Text, ScrollView, Image, TouchableOpacity } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
@@ -14,11 +15,11 @@ import {
 } from "@expo-google-fonts/nunito";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { useEffect, useState } from "react";
-import CourseLesson from "@/components/courses/course.lesson";
-import ReviewCard from "@/components/cards/review.card";
+import CourseLesson from "../../../components/courses/course.lesson";
+import ReviewCard from "../../../components/cards/review.card";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import useUser from "@/hooks/auth/useUser";
-import Loader from "@/components/loader/loader";
+import useUser from "../../../hooks/auth/useUser";
+import Loader from "../../../components/loader/loader";
 
 export default function CourseDetailScreen() {
   const [activeButton, setActiveButton] = useState("About");

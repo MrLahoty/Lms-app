@@ -20,10 +20,10 @@ import {
     Nunito_600SemiBold,
   } from "@expo-google-fonts/nunito";
 import { useState } from 'react';
-import { commonStyles } from '@/styles/common/common.styles';
+import { commonStyles } from '../../../styles/common/common.styles';
 import { router } from 'expo-router';
 import axios from "axios";
-import { SERVER_URI } from '@/utils/uri';
+import { SERVER_URI } from '../../../utils/uri';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Toast } from 'react-native-toast-notifications';
 
